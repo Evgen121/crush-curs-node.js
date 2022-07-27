@@ -1,0 +1,6 @@
+const os = require('os')
+console.log('operation system', os.platform())
+console.log('arhitectur system', os.arch())
+console.log("informatio", os.cpus())
+console.log("memory", os.freemem())
+console.log("total memory", os.totalmem())
